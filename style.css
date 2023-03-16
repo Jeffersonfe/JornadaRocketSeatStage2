@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Inter:wght@400;700&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Toda fonte da pagina fica em 10px */
+:root {
+    font-size: 62.5%;
+    --font-inter: 'Inter', sans-serif;
+    --font-emylys: 'Emilys Candy', cursive;
+    --amarelo: #FFC700;
+}
+
+/* Deixa todo documento com a font padrão de 16px faz usar rem no lugar de px */
+body {
+    font-size: 1.6rem;
+    font-family: var(--font-inter);
+    color: white;
+    height: 100vh;
+    background-color: black;
+}
+.conteiner{
+    margin: auto;
+    background-image: url(/src/background.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    max-width: 128rem;
+    height: 100%;
+    padding-top: 5%;
+}
+p{
+    opacity: 70%;
+}
+p span{
+    color: #FFC700;
+}
+
+h1{
+    font-family: var(--font-emylys);
+    font-size: 6.4rem;
+    color: var(--amarelo);
+}
+
+button{
+    width: 17.2rem;
+    height: 4.2rem;
+    font-family: var(--font-inter);
+    font-weight: 700;
+    border: none;
+    font-size: 2rem;
+}
+#buttons{
+    margin-top: 7.2rem;
+}
+#more{
+    background: none;
+    color: white;
+    text-decoration: underline;
+}
+#play{
+    background-color: #FFC700;
+}
